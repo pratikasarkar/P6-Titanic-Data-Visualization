@@ -1,5 +1,7 @@
 # P6-Titanic-Data-Visualization<br />
 
+The visualization shows the details of the details of surviving/non-surviving passengers in the Titanic disaster like their age, gender, passenger class they belonged to(1,2 or 3) and the number of people survived.<br />
+
 To check out the visualization follow the below steps:<br />
 1 - Download the html and csv files to some directory(make sure both files are in same directory/folder).<br />
 2 - Open cmd/terminal.<br />
