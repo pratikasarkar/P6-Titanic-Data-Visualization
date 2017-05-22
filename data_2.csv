@@ -1,0 +1,715 @@
+,Sex,Pclass,Age,Age_bucket,Survived,NOT Survived,All Passengers
+1,male,3,22,(19-40) Young,0,1,1
+2,female,1,38,(19-40) Young,1,0,1
+3,female,3,26,(19-40) Young,1,0,1
+4,female,1,35,(19-40) Young,1,0,1
+5,male,3,35,(19-40) Young,0,1,1
+6,male,1,54,(41-60) Middle-Aged ,0,1,1
+7,male,3,2,(0-18) Children,0,1,1
+8,female,3,27,(19-40) Young,1,0,1
+9,female,2,14,(0-18) Children,1,0,1
+10,female,3,4,(0-18) Children,1,0,1
+11,female,1,58,(41-60) Middle-Aged ,1,0,1
+12,male,3,20,(19-40) Young,0,1,1
+13,male,3,39,(19-40) Young,0,1,1
+14,female,3,14,(0-18) Children,0,1,1
+15,female,2,55,(41-60) Middle-Aged ,1,0,1
+16,male,3,2,(0-18) Children,0,1,1
+17,female,3,31,(19-40) Young,0,1,1
+18,male,2,35,(19-40) Young,0,1,1
+19,male,2,34,(19-40) Young,1,0,1
+20,female,3,15,(0-18) Children,1,0,1
+21,male,1,28,(19-40) Young,1,0,1
+22,female,3,8,(0-18) Children,0,1,1
+23,female,3,38,(19-40) Young,1,0,1
+24,male,1,19,(19-40) Young,0,1,1
+25,male,1,40,(19-40) Young,0,1,1
+26,male,2,66,(61-above) Senior-Citizen,0,1,1
+27,male,1,28,(19-40) Young,0,1,1
+28,male,1,42,(41-60) Middle-Aged ,0,1,1
+29,male,3,21,(19-40) Young,0,1,1
+30,female,3,18,(0-18) Children,0,1,1
+31,female,3,14,(0-18) Children,1,0,1
+32,female,3,40,(19-40) Young,0,1,1
+33,female,2,27,(19-40) Young,0,1,1
+34,female,2,3,(0-18) Children,1,0,1
+35,female,3,19,(19-40) Young,1,0,1
+36,female,3,18,(0-18) Children,0,1,1
+37,male,3,7,(0-18) Children,0,1,1
+38,male,3,21,(19-40) Young,0,1,1
+39,female,1,49,(41-60) Middle-Aged ,1,0,1
+40,female,2,29,(19-40) Young,1,0,1
+41,male,1,65,(61-above) Senior-Citizen,0,1,1
+42,female,2,21,(19-40) Young,1,0,1
+43,male,3,28.5,(19-40) Young,0,1,1
+44,female,2,5,(0-18) Children,1,0,1
+45,male,3,11,(0-18) Children,0,1,1
+46,male,3,22,(19-40) Young,0,1,1
+47,female,1,38,(19-40) Young,1,0,1
+48,male,1,45,(41-60) Middle-Aged ,0,1,1
+49,male,3,4,(0-18) Children,0,1,1
+50,female,2,29,(19-40) Young,1,0,1
+51,male,3,19,(19-40) Young,0,1,1
+52,female,3,17,(0-18) Children,1,0,1
+53,male,3,26,(19-40) Young,0,1,1
+54,male,2,32,(19-40) Young,0,1,1
+55,female,3,16,(0-18) Children,0,1,1
+56,male,2,21,(19-40) Young,0,1,1
+57,male,3,26,(19-40) Young,0,1,1
+58,male,3,32,(19-40) Young,1,0,1
+59,male,3,25,(19-40) Young,0,1,1
+60,male,2,0.83,(0-18) Children,1,0,1
+61,female,3,30,(19-40) Young,1,0,1
+62,male,3,22,(19-40) Young,0,1,1
+63,male,3,29,(19-40) Young,1,0,1
+64,male,1,28,(19-40) Young,0,1,1
+65,female,2,17,(0-18) Children,1,0,1
+66,female,3,33,(19-40) Young,1,0,1
+67,male,3,16,(0-18) Children,0,1,1
+68,female,1,23,(19-40) Young,1,0,1
+69,male,3,24,(19-40) Young,0,1,1
+70,male,3,29,(19-40) Young,0,1,1
+71,male,3,20,(19-40) Young,0,1,1
+72,male,1,46,(41-60) Middle-Aged ,0,1,1
+73,male,3,26,(19-40) Young,0,1,1
+74,male,3,59,(41-60) Middle-Aged ,0,1,1
+75,male,1,71,(61-above) Senior-Citizen,0,1,1
+76,male,1,23,(19-40) Young,1,0,1
+77,female,2,34,(19-40) Young,1,0,1
+78,male,2,34,(19-40) Young,0,1,1
+79,female,3,28,(19-40) Young,0,1,1
+80,male,1,21,(19-40) Young,0,1,1
+81,male,3,33,(19-40) Young,0,1,1
+82,male,3,37,(19-40) Young,0,1,1
+83,male,3,28,(19-40) Young,0,1,1
+84,female,3,21,(19-40) Young,1,0,1
+85,male,3,38,(19-40) Young,0,1,1
+86,male,1,47,(41-60) Middle-Aged ,0,1,1
+87,female,3,14.5,(0-18) Children,0,1,1
+88,male,3,22,(19-40) Young,0,1,1
+89,female,3,20,(19-40) Young,0,1,1
+90,female,3,17,(0-18) Children,0,1,1
+91,male,3,21,(19-40) Young,0,1,1
+92,male,3,70.5,(61-above) Senior-Citizen,0,1,1
+93,male,2,29,(19-40) Young,0,1,1
+94,male,1,24,(19-40) Young,0,1,1
+95,female,3,2,(0-18) Children,0,1,1
+96,male,2,21,(19-40) Young,0,1,1
+97,male,2,32.5,(19-40) Young,0,1,1
+98,female,2,32.5,(19-40) Young,1,0,1
+99,male,1,54,(41-60) Middle-Aged ,0,1,1
+100,male,3,12,(0-18) Children,1,0,1
+101,male,3,24,(19-40) Young,1,0,1
+102,male,3,45,(41-60) Middle-Aged ,0,1,1
+103,male,3,33,(19-40) Young,0,1,1
+104,male,3,20,(19-40) Young,0,1,1
+105,female,3,47,(41-60) Middle-Aged ,0,1,1
+106,female,2,29,(19-40) Young,1,0,1
+107,male,2,25,(19-40) Young,0,1,1
+108,male,2,23,(19-40) Young,0,1,1
+109,female,1,19,(19-40) Young,1,0,1
+110,male,1,37,(19-40) Young,0,1,1
+111,male,3,16,(0-18) Children,0,1,1
+112,male,1,24,(19-40) Young,0,1,1
+113,female,3,22,(19-40) Young,1,0,1
+114,female,3,24,(19-40) Young,1,0,1
+115,male,3,19,(19-40) Young,0,1,1
+116,male,2,18,(0-18) Children,0,1,1
+117,male,2,19,(19-40) Young,0,1,1
+118,male,3,27,(19-40) Young,1,0,1
+119,female,3,9,(0-18) Children,0,1,1
+120,male,2,36.5,(19-40) Young,0,1,1
+121,male,2,42,(41-60) Middle-Aged ,0,1,1
+122,male,2,51,(41-60) Middle-Aged ,0,1,1
+123,female,1,22,(19-40) Young,1,0,1
+124,male,3,55.5,(41-60) Middle-Aged ,0,1,1
+125,male,3,40.5,(41-60) Middle-Aged ,0,1,1
+126,male,1,51,(41-60) Middle-Aged ,0,1,1
+127,female,3,16,(0-18) Children,1,0,1
+128,male,3,30,(19-40) Young,0,1,1
+129,male,3,44,(41-60) Middle-Aged ,0,1,1
+130,female,2,40,(19-40) Young,1,0,1
+131,male,3,26,(19-40) Young,0,1,1
+132,male,3,17,(0-18) Children,0,1,1
+133,male,3,1,(0-18) Children,0,1,1
+134,male,3,9,(0-18) Children,1,0,1
+135,female,3,45,(41-60) Middle-Aged ,0,1,1
+136,male,3,28,(19-40) Young,0,1,1
+137,male,1,61,(61-above) Senior-Citizen,0,1,1
+138,male,3,4,(0-18) Children,0,1,1
+139,female,3,1,(0-18) Children,1,0,1
+140,male,3,21,(19-40) Young,0,1,1
+141,male,1,56,(41-60) Middle-Aged ,0,1,1
+142,male,3,18,(0-18) Children,0,1,1
+143,female,1,50,(41-60) Middle-Aged ,0,1,1
+144,male,2,30,(19-40) Young,0,1,1
+145,male,3,36,(19-40) Young,0,1,1
+146,male,3,9,(0-18) Children,0,1,1
+147,male,2,1,(0-18) Children,1,0,1
+148,female,3,4,(0-18) Children,1,0,1
+149,male,1,45,(41-60) Middle-Aged ,1,0,1
+150,male,3,40,(19-40) Young,0,1,1
+151,male,3,36,(19-40) Young,0,1,1
+152,female,2,32,(19-40) Young,1,0,1
+153,male,2,19,(19-40) Young,0,1,1
+154,female,3,19,(19-40) Young,1,0,1
+155,male,2,3,(0-18) Children,1,0,1
+156,female,1,44,(41-60) Middle-Aged ,1,0,1
+157,female,1,58,(41-60) Middle-Aged ,1,0,1
+158,male,3,42,(41-60) Middle-Aged ,0,1,1
+159,female,2,24,(19-40) Young,0,1,1
+160,male,3,28,(19-40) Young,0,1,1
+161,male,3,34,(19-40) Young,0,1,1
+162,male,3,45.5,(41-60) Middle-Aged ,0,1,1
+163,male,3,18,(0-18) Children,1,0,1
+164,female,3,2,(0-18) Children,0,1,1
+165,male,3,32,(19-40) Young,0,1,1
+166,male,3,26,(19-40) Young,1,0,1
+167,female,3,16,(0-18) Children,1,0,1
+168,male,1,40,(19-40) Young,1,0,1
+169,male,3,24,(19-40) Young,0,1,1
+170,female,2,35,(19-40) Young,1,0,1
+171,male,3,22,(19-40) Young,0,1,1
+172,male,2,30,(19-40) Young,0,1,1
+173,female,1,31,(19-40) Young,1,0,1
+174,female,3,27,(19-40) Young,1,0,1
+175,male,2,42,(41-60) Middle-Aged ,0,1,1
+176,female,1,32,(19-40) Young,1,0,1
+177,male,2,30,(19-40) Young,0,1,1
+178,male,3,16,(0-18) Children,1,0,1
+179,male,2,27,(19-40) Young,0,1,1
+180,male,3,51,(41-60) Middle-Aged ,0,1,1
+181,male,1,38,(19-40) Young,1,0,1
+182,male,3,22,(19-40) Young,0,1,1
+183,male,2,19,(19-40) Young,1,0,1
+184,male,3,20.5,(19-40) Young,0,1,1
+185,male,2,18,(0-18) Children,0,1,1
+186,female,1,35,(19-40) Young,1,0,1
+187,male,3,29,(19-40) Young,0,1,1
+188,male,2,59,(41-60) Middle-Aged ,0,1,1
+189,female,3,5,(0-18) Children,1,0,1
+190,male,2,24,(19-40) Young,0,1,1
+191,male,2,44,(41-60) Middle-Aged ,0,1,1
+192,female,2,8,(0-18) Children,1,0,1
+193,male,2,19,(19-40) Young,0,1,1
+194,male,2,33,(19-40) Young,0,1,1
+195,male,2,29,(19-40) Young,0,1,1
+196,male,3,22,(19-40) Young,0,1,1
+197,male,3,30,(19-40) Young,0,1,1
+198,male,1,44,(41-60) Middle-Aged ,0,1,1
+199,female,3,25,(19-40) Young,0,1,1
+200,female,2,24,(19-40) Young,1,0,1
+201,male,1,37,(19-40) Young,1,0,1
+202,male,2,54,(41-60) Middle-Aged ,0,1,1
+203,female,3,29,(19-40) Young,0,1,1
+204,male,1,62,(61-above) Senior-Citizen,0,1,1
+205,male,3,30,(19-40) Young,0,1,1
+206,female,3,41,(41-60) Middle-Aged ,0,1,1
+207,female,3,29,(19-40) Young,1,0,1
+208,female,1,30,(19-40) Young,1,0,1
+209,female,1,35,(19-40) Young,1,0,1
+210,female,2,50,(41-60) Middle-Aged ,1,0,1
+211,male,3,3,(0-18) Children,1,0,1
+212,male,1,52,(41-60) Middle-Aged ,0,1,1
+213,male,1,40,(19-40) Young,0,1,1
+214,male,2,36,(19-40) Young,0,1,1
+215,male,3,16,(0-18) Children,0,1,1
+216,male,3,25,(19-40) Young,1,0,1
+217,female,1,58,(41-60) Middle-Aged ,1,0,1
+218,female,1,35,(19-40) Young,1,0,1
+219,male,3,25,(19-40) Young,1,0,1
+220,female,2,41,(41-60) Middle-Aged ,1,0,1
+221,male,1,37,(19-40) Young,0,1,1
+222,female,1,63,(61-above) Senior-Citizen,1,0,1
+223,female,3,45,(41-60) Middle-Aged ,0,1,1
+224,male,3,7,(0-18) Children,0,1,1
+225,female,3,35,(19-40) Young,1,0,1
+226,male,3,65,(61-above) Senior-Citizen,0,1,1
+227,male,3,28,(19-40) Young,0,1,1
+228,male,3,16,(0-18) Children,0,1,1
+229,male,3,19,(19-40) Young,1,0,1
+230,male,3,33,(19-40) Young,0,1,1
+231,male,3,30,(19-40) Young,1,0,1
+232,male,3,22,(19-40) Young,0,1,1
+233,male,2,42,(41-60) Middle-Aged ,1,0,1
+234,female,3,22,(19-40) Young,1,0,1
+235,female,1,26,(19-40) Young,1,0,1
+236,female,1,19,(19-40) Young,1,0,1
+237,male,2,36,(19-40) Young,0,1,1
+238,female,3,24,(19-40) Young,0,1,1
+239,male,3,24,(19-40) Young,0,1,1
+240,male,3,23.5,(19-40) Young,0,1,1
+241,female,1,2,(0-18) Children,0,1,1
+242,female,1,50,(41-60) Middle-Aged ,1,0,1
+243,male,3,19,(19-40) Young,0,1,1
+244,male,1,0.92,(0-18) Children,1,0,1
+245,female,1,17,(0-18) Children,1,0,1
+246,male,2,30,(19-40) Young,0,1,1
+247,female,1,30,(19-40) Young,1,0,1
+248,female,1,24,(19-40) Young,1,0,1
+249,female,1,18,(0-18) Children,1,0,1
+250,female,2,26,(19-40) Young,0,1,1
+251,male,3,28,(19-40) Young,0,1,1
+252,male,2,43,(41-60) Middle-Aged ,0,1,1
+253,female,3,26,(19-40) Young,1,0,1
+254,female,2,24,(19-40) Young,1,0,1
+255,male,2,54,(41-60) Middle-Aged ,0,1,1
+256,female,1,31,(19-40) Young,1,0,1
+257,female,1,40,(19-40) Young,1,0,1
+258,male,3,22,(19-40) Young,0,1,1
+259,male,3,27,(19-40) Young,0,1,1
+260,female,2,30,(19-40) Young,1,0,1
+261,female,2,22,(19-40) Young,1,0,1
+262,female,1,36,(19-40) Young,1,0,1
+263,male,3,61,(61-above) Senior-Citizen,0,1,1
+264,female,2,36,(19-40) Young,1,0,1
+265,female,3,31,(19-40) Young,1,0,1
+266,female,1,16,(0-18) Children,1,0,1
+267,male,1,45.5,(41-60) Middle-Aged ,0,1,1
+268,male,1,38,(19-40) Young,0,1,1
+269,male,3,16,(0-18) Children,0,1,1
+270,male,1,29,(19-40) Young,0,1,1
+271,female,1,41,(41-60) Middle-Aged ,1,0,1
+272,male,3,45,(41-60) Middle-Aged ,1,0,1
+273,male,1,45,(41-60) Middle-Aged ,0,1,1
+274,male,2,2,(0-18) Children,1,0,1
+275,female,1,24,(19-40) Young,1,0,1
+276,male,2,28,(19-40) Young,0,1,1
+277,male,2,25,(19-40) Young,0,1,1
+278,male,2,36,(19-40) Young,0,1,1
+279,female,2,24,(19-40) Young,1,0,1
+280,female,2,40,(19-40) Young,1,0,1
+281,male,3,3,(0-18) Children,1,0,1
+282,male,3,42,(41-60) Middle-Aged ,0,1,1
+283,male,3,23,(19-40) Young,0,1,1
+284,male,3,15,(0-18) Children,0,1,1
+285,male,3,25,(19-40) Young,0,1,1
+286,male,3,28,(19-40) Young,0,1,1
+287,female,1,22,(19-40) Young,1,0,1
+288,female,2,38,(19-40) Young,0,1,1
+289,male,3,40,(19-40) Young,0,1,1
+290,male,2,29,(19-40) Young,0,1,1
+291,female,3,45,(41-60) Middle-Aged ,0,1,1
+292,male,3,35,(19-40) Young,0,1,1
+293,male,3,30,(19-40) Young,0,1,1
+294,female,1,60,(41-60) Middle-Aged ,1,0,1
+295,female,1,24,(19-40) Young,1,0,1
+296,male,1,25,(19-40) Young,1,0,1
+297,male,3,18,(0-18) Children,0,1,1
+298,male,3,19,(19-40) Young,0,1,1
+299,male,1,22,(19-40) Young,0,1,1
+300,female,3,3,(0-18) Children,0,1,1
+301,female,3,22,(19-40) Young,1,0,1
+302,male,1,27,(19-40) Young,0,1,1
+303,male,3,20,(19-40) Young,0,1,1
+304,male,3,19,(19-40) Young,0,1,1
+305,female,1,42,(41-60) Middle-Aged ,1,0,1
+306,female,3,1,(0-18) Children,1,0,1
+307,male,3,32,(19-40) Young,0,1,1
+308,female,1,35,(19-40) Young,1,0,1
+309,male,2,18,(0-18) Children,0,1,1
+310,male,3,1,(0-18) Children,0,1,1
+311,female,2,36,(19-40) Young,1,0,1
+312,female,2,17,(0-18) Children,1,0,1
+313,male,1,36,(19-40) Young,1,0,1
+314,male,3,21,(19-40) Young,1,0,1
+315,male,3,28,(19-40) Young,0,1,1
+316,female,1,23,(19-40) Young,1,0,1
+317,female,3,24,(19-40) Young,1,0,1
+318,male,3,22,(19-40) Young,0,1,1
+319,female,3,31,(19-40) Young,0,1,1
+320,male,2,46,(41-60) Middle-Aged ,0,1,1
+321,male,2,23,(19-40) Young,0,1,1
+322,female,2,28,(19-40) Young,1,0,1
+323,male,3,39,(19-40) Young,1,0,1
+324,male,3,26,(19-40) Young,0,1,1
+325,female,3,21,(19-40) Young,0,1,1
+326,male,3,28,(19-40) Young,0,1,1
+327,female,3,20,(19-40) Young,0,1,1
+328,male,2,34,(19-40) Young,0,1,1
+329,male,3,51,(41-60) Middle-Aged ,0,1,1
+330,male,2,3,(0-18) Children,1,0,1
+331,male,3,21,(19-40) Young,0,1,1
+332,female,1,33,(19-40) Young,1,0,1
+333,male,3,44,(41-60) Middle-Aged ,1,0,1
+334,female,2,34,(19-40) Young,1,0,1
+335,female,2,18,(0-18) Children,1,0,1
+336,male,2,30,(19-40) Young,0,1,1
+337,female,3,10,(0-18) Children,0,1,1
+338,male,3,21,(19-40) Young,0,1,1
+339,male,3,29,(19-40) Young,0,1,1
+340,female,3,28,(19-40) Young,0,1,1
+341,male,3,18,(0-18) Children,0,1,1
+342,female,2,28,(19-40) Young,1,0,1
+343,female,2,19,(19-40) Young,1,0,1
+344,male,3,32,(19-40) Young,1,0,1
+345,male,1,28,(19-40) Young,1,0,1
+346,female,2,42,(41-60) Middle-Aged ,1,0,1
+347,male,3,17,(0-18) Children,0,1,1
+348,male,1,50,(41-60) Middle-Aged ,0,1,1
+349,female,1,14,(0-18) Children,1,0,1
+350,female,3,21,(19-40) Young,0,1,1
+351,female,2,24,(19-40) Young,1,0,1
+352,male,1,64,(61-above) Senior-Citizen,0,1,1
+353,male,2,31,(19-40) Young,0,1,1
+354,female,2,45,(41-60) Middle-Aged ,1,0,1
+355,male,3,20,(19-40) Young,0,1,1
+356,male,3,25,(19-40) Young,0,1,1
+357,female,2,28,(19-40) Young,1,0,1
+358,male,1,4,(0-18) Children,1,0,1
+359,female,2,13,(0-18) Children,1,0,1
+360,male,1,34,(19-40) Young,1,0,1
+361,female,3,5,(0-18) Children,1,0,1
+362,male,1,52,(41-60) Middle-Aged ,1,0,1
+363,male,2,36,(19-40) Young,0,1,1
+364,male,1,30,(19-40) Young,0,1,1
+365,male,1,49,(41-60) Middle-Aged ,1,0,1
+366,male,3,29,(19-40) Young,1,0,1
+367,male,1,65,(61-above) Senior-Citizen,0,1,1
+368,female,2,50,(41-60) Middle-Aged ,1,0,1
+369,male,1,48,(41-60) Middle-Aged ,1,0,1
+370,male,3,34,(19-40) Young,0,1,1
+371,male,1,47,(41-60) Middle-Aged ,0,1,1
+372,male,2,48,(41-60) Middle-Aged ,0,1,1
+373,male,3,38,(19-40) Young,0,1,1
+374,male,1,56,(41-60) Middle-Aged ,0,1,1
+375,female,3,0.75,(0-18) Children,1,0,1
+376,male,3,38,(19-40) Young,0,1,1
+377,female,2,33,(19-40) Young,1,0,1
+378,female,2,23,(19-40) Young,1,0,1
+379,female,3,22,(19-40) Young,0,1,1
+380,male,2,34,(19-40) Young,0,1,1
+381,male,3,29,(19-40) Young,0,1,1
+382,male,3,22,(19-40) Young,0,1,1
+383,female,3,2,(0-18) Children,1,0,1
+384,male,3,9,(0-18) Children,0,1,1
+385,male,3,50,(41-60) Middle-Aged ,0,1,1
+386,female,3,63,(61-above) Senior-Citizen,1,0,1
+387,male,1,25,(19-40) Young,1,0,1
+388,female,1,35,(19-40) Young,1,0,1
+389,male,1,58,(41-60) Middle-Aged ,0,1,1
+390,male,3,30,(19-40) Young,0,1,1
+391,male,3,9,(0-18) Children,1,0,1
+392,male,3,21,(19-40) Young,0,1,1
+393,male,1,55,(41-60) Middle-Aged ,0,1,1
+394,male,1,71,(61-above) Senior-Citizen,0,1,1
+395,male,3,21,(19-40) Young,0,1,1
+396,female,1,54,(41-60) Middle-Aged ,1,0,1
+397,female,1,25,(19-40) Young,0,1,1
+398,male,3,24,(19-40) Young,0,1,1
+399,male,3,17,(0-18) Children,0,1,1
+400,female,3,21,(19-40) Young,0,1,1
+401,female,3,37,(19-40) Young,0,1,1
+402,female,1,16,(0-18) Children,1,0,1
+403,male,1,18,(0-18) Children,0,1,1
+404,female,2,33,(19-40) Young,1,0,1
+405,male,3,28,(19-40) Young,0,1,1
+406,male,3,26,(19-40) Young,1,0,1
+407,male,3,29,(19-40) Young,1,0,1
+408,male,1,36,(19-40) Young,1,0,1
+409,female,1,54,(41-60) Middle-Aged ,1,0,1
+410,male,3,24,(19-40) Young,0,1,1
+411,male,1,47,(41-60) Middle-Aged ,0,1,1
+412,female,2,34,(19-40) Young,1,0,1
+413,female,2,36,(19-40) Young,1,0,1
+414,male,3,32,(19-40) Young,0,1,1
+415,female,1,30,(19-40) Young,1,0,1
+416,male,3,22,(19-40) Young,0,1,1
+417,female,1,44,(41-60) Middle-Aged ,1,0,1
+418,male,3,40.5,(41-60) Middle-Aged ,0,1,1
+419,female,2,50,(41-60) Middle-Aged ,1,0,1
+420,male,3,39,(19-40) Young,0,1,1
+421,male,2,23,(19-40) Young,0,1,1
+422,female,2,2,(0-18) Children,1,0,1
+423,male,3,17,(0-18) Children,0,1,1
+424,female,3,30,(19-40) Young,0,1,1
+425,female,2,7,(0-18) Children,1,0,1
+426,male,1,45,(41-60) Middle-Aged ,0,1,1
+427,female,1,30,(19-40) Young,1,0,1
+428,female,1,22,(19-40) Young,1,0,1
+429,female,1,36,(19-40) Young,1,0,1
+430,female,3,9,(0-18) Children,0,1,1
+431,female,3,11,(0-18) Children,0,1,1
+432,male,2,32,(19-40) Young,1,0,1
+433,male,1,50,(41-60) Middle-Aged ,0,1,1
+434,male,1,64,(61-above) Senior-Citizen,0,1,1
+435,female,2,19,(19-40) Young,1,0,1
+436,male,3,33,(19-40) Young,0,1,1
+437,male,2,8,(0-18) Children,1,0,1
+438,male,1,17,(0-18) Children,1,0,1
+439,male,2,27,(19-40) Young,0,1,1
+440,male,3,22,(19-40) Young,1,0,1
+441,female,3,22,(19-40) Young,1,0,1
+442,male,1,62,(61-above) Senior-Citizen,0,1,1
+443,female,1,48,(41-60) Middle-Aged ,1,0,1
+444,female,1,39,(19-40) Young,1,0,1
+445,female,3,36,(19-40) Young,1,0,1
+446,male,3,40,(19-40) Young,0,1,1
+447,male,2,28,(19-40) Young,0,1,1
+448,male,3,24,(19-40) Young,0,1,1
+449,male,3,19,(19-40) Young,0,1,1
+450,female,3,29,(19-40) Young,0,1,1
+451,male,3,32,(19-40) Young,1,0,1
+452,male,2,62,(61-above) Senior-Citizen,1,0,1
+453,female,1,53,(41-60) Middle-Aged ,1,0,1
+454,male,1,36,(19-40) Young,1,0,1
+455,male,3,16,(0-18) Children,0,1,1
+456,male,3,19,(19-40) Young,0,1,1
+457,female,2,34,(19-40) Young,1,0,1
+458,female,1,39,(19-40) Young,1,0,1
+459,male,3,32,(19-40) Young,1,0,1
+460,female,2,25,(19-40) Young,1,0,1
+461,female,1,39,(19-40) Young,1,0,1
+462,male,2,54,(41-60) Middle-Aged ,0,1,1
+463,male,1,36,(19-40) Young,0,1,1
+464,female,1,18,(0-18) Children,1,0,1
+465,male,2,47,(41-60) Middle-Aged ,0,1,1
+466,male,1,60,(41-60) Middle-Aged ,1,0,1
+467,male,3,22,(19-40) Young,0,1,1
+468,male,3,35,(19-40) Young,0,1,1
+469,female,1,52,(41-60) Middle-Aged ,1,0,1
+470,male,3,47,(41-60) Middle-Aged ,0,1,1
+471,male,2,37,(19-40) Young,0,1,1
+472,male,3,36,(19-40) Young,0,1,1
+473,male,3,49,(41-60) Middle-Aged ,0,1,1
+474,male,1,49,(41-60) Middle-Aged ,1,0,1
+475,female,2,24,(19-40) Young,1,0,1
+476,male,3,44,(41-60) Middle-Aged ,0,1,1
+477,male,1,35,(19-40) Young,1,0,1
+478,male,3,36,(19-40) Young,0,1,1
+479,male,3,30,(19-40) Young,0,1,1
+480,male,1,27,(19-40) Young,1,0,1
+481,female,2,22,(19-40) Young,1,0,1
+482,female,1,40,(19-40) Young,1,0,1
+483,female,3,39,(19-40) Young,0,1,1
+484,male,3,35,(19-40) Young,0,1,1
+485,female,2,24,(19-40) Young,1,0,1
+486,male,3,34,(19-40) Young,0,1,1
+487,female,3,26,(19-40) Young,0,1,1
+488,female,2,4,(0-18) Children,1,0,1
+489,male,2,26,(19-40) Young,0,1,1
+490,male,3,27,(19-40) Young,0,1,1
+491,male,1,42,(41-60) Middle-Aged ,1,0,1
+492,male,3,20,(19-40) Young,1,0,1
+493,male,3,21,(19-40) Young,0,1,1
+494,male,3,21,(19-40) Young,0,1,1
+495,male,1,61,(61-above) Senior-Citizen,0,1,1
+496,male,2,57,(41-60) Middle-Aged ,0,1,1
+497,female,1,21,(19-40) Young,1,0,1
+498,male,3,26,(19-40) Young,0,1,1
+499,male,1,80,(61-above) Senior-Citizen,1,0,1
+500,male,3,51,(41-60) Middle-Aged ,0,1,1
+501,male,1,32,(19-40) Young,1,0,1
+502,female,3,9,(0-18) Children,0,1,1
+503,female,2,28,(19-40) Young,1,0,1
+504,male,3,32,(19-40) Young,0,1,1
+505,male,2,31,(19-40) Young,0,1,1
+506,female,3,41,(41-60) Middle-Aged ,0,1,1
+507,male,3,20,(19-40) Young,0,1,1
+508,female,1,24,(19-40) Young,1,0,1
+509,female,3,2,(0-18) Children,0,1,1
+510,female,3,0.75,(0-18) Children,1,0,1
+511,male,1,48,(41-60) Middle-Aged ,1,0,1
+512,male,3,19,(19-40) Young,0,1,1
+513,male,1,56,(41-60) Middle-Aged ,1,0,1
+514,female,3,23,(19-40) Young,1,0,1
+515,female,2,18,(0-18) Children,1,0,1
+516,male,3,21,(19-40) Young,0,1,1
+517,female,3,18,(0-18) Children,0,1,1
+518,male,2,24,(19-40) Young,0,1,1
+519,female,3,32,(19-40) Young,0,1,1
+520,male,2,23,(19-40) Young,0,1,1
+521,male,1,58,(41-60) Middle-Aged ,0,1,1
+522,male,1,50,(41-60) Middle-Aged ,1,0,1
+523,male,3,40,(19-40) Young,0,1,1
+524,male,1,47,(41-60) Middle-Aged ,0,1,1
+525,male,3,36,(19-40) Young,0,1,1
+526,male,3,20,(19-40) Young,1,0,1
+527,male,2,32,(19-40) Young,0,1,1
+528,male,2,25,(19-40) Young,0,1,1
+529,male,3,43,(41-60) Middle-Aged ,0,1,1
+530,female,2,40,(19-40) Young,1,0,1
+531,male,1,31,(19-40) Young,0,1,1
+532,male,2,70,(61-above) Senior-Citizen,0,1,1
+533,male,2,31,(19-40) Young,1,0,1
+534,male,3,18,(0-18) Children,0,1,1
+535,male,3,24.5,(19-40) Young,0,1,1
+536,female,3,18,(0-18) Children,1,0,1
+537,female,3,43,(41-60) Middle-Aged ,0,1,1
+538,male,1,36,(19-40) Young,1,0,1
+539,male,1,27,(19-40) Young,1,0,1
+540,male,3,20,(19-40) Young,0,1,1
+541,male,3,14,(0-18) Children,0,1,1
+542,male,2,60,(41-60) Middle-Aged ,0,1,1
+543,male,2,25,(19-40) Young,0,1,1
+544,male,3,14,(0-18) Children,0,1,1
+545,male,3,19,(19-40) Young,0,1,1
+546,male,3,18,(0-18) Children,0,1,1
+547,female,1,15,(0-18) Children,1,0,1
+548,male,1,31,(19-40) Young,1,0,1
+549,female,3,4,(0-18) Children,1,0,1
+550,male,3,25,(19-40) Young,0,1,1
+551,male,1,60,(41-60) Middle-Aged ,0,1,1
+552,male,2,52,(41-60) Middle-Aged ,0,1,1
+553,male,3,44,(41-60) Middle-Aged ,0,1,1
+554,male,1,49,(41-60) Middle-Aged ,0,1,1
+555,male,3,42,(41-60) Middle-Aged ,0,1,1
+556,female,1,18,(0-18) Children,1,0,1
+557,male,1,35,(19-40) Young,1,0,1
+558,female,3,18,(0-18) Children,0,1,1
+559,male,3,25,(19-40) Young,0,1,1
+560,male,3,26,(19-40) Young,0,1,1
+561,male,2,39,(19-40) Young,0,1,1
+562,female,2,45,(41-60) Middle-Aged ,1,0,1
+563,male,1,42,(41-60) Middle-Aged ,1,0,1
+564,female,1,22,(19-40) Young,1,0,1
+565,female,1,24,(19-40) Young,1,0,1
+566,male,1,48,(41-60) Middle-Aged ,1,0,1
+567,male,3,29,(19-40) Young,0,1,1
+568,male,2,52,(41-60) Middle-Aged ,0,1,1
+569,male,3,19,(19-40) Young,0,1,1
+570,female,1,38,(19-40) Young,1,0,1
+571,female,2,27,(19-40) Young,1,0,1
+572,male,3,33,(19-40) Young,0,1,1
+573,female,2,6,(0-18) Children,1,0,1
+574,male,3,17,(0-18) Children,0,1,1
+575,male,2,34,(19-40) Young,0,1,1
+576,male,2,50,(41-60) Middle-Aged ,0,1,1
+577,male,1,27,(19-40) Young,1,0,1
+578,male,3,20,(19-40) Young,0,1,1
+579,female,2,30,(19-40) Young,1,0,1
+580,male,2,25,(19-40) Young,0,1,1
+581,female,3,25,(19-40) Young,0,1,1
+582,female,1,29,(19-40) Young,1,0,1
+583,male,3,11,(0-18) Children,0,1,1
+584,male,2,23,(19-40) Young,0,1,1
+585,male,2,23,(19-40) Young,0,1,1
+586,male,3,28.5,(19-40) Young,0,1,1
+587,female,3,48,(41-60) Middle-Aged ,0,1,1
+588,male,1,35,(19-40) Young,1,0,1
+589,male,1,36,(19-40) Young,0,1,1
+590,female,1,21,(19-40) Young,1,0,1
+591,male,3,24,(19-40) Young,0,1,1
+592,male,3,31,(19-40) Young,1,0,1
+593,male,1,70,(61-above) Senior-Citizen,0,1,1
+594,male,3,16,(0-18) Children,0,1,1
+595,female,2,30,(19-40) Young,1,0,1
+596,male,1,19,(19-40) Young,0,1,1
+597,male,3,31,(19-40) Young,0,1,1
+598,female,2,4,(0-18) Children,1,0,1
+599,male,3,6,(0-18) Children,1,0,1
+600,male,3,33,(19-40) Young,0,1,1
+601,male,3,23,(19-40) Young,0,1,1
+602,female,2,48,(41-60) Middle-Aged ,1,0,1
+603,male,2,0.67,(0-18) Children,1,0,1
+604,male,3,28,(19-40) Young,0,1,1
+605,male,2,18,(0-18) Children,0,1,1
+606,male,3,34,(19-40) Young,0,1,1
+607,female,1,33,(19-40) Young,1,0,1
+608,male,3,41,(41-60) Middle-Aged ,0,1,1
+609,male,3,20,(19-40) Young,1,0,1
+610,female,1,36,(19-40) Young,1,0,1
+611,male,3,16,(0-18) Children,0,1,1
+612,female,1,51,(41-60) Middle-Aged ,1,0,1
+613,female,3,30.5,(19-40) Young,0,1,1
+614,male,3,32,(19-40) Young,0,1,1
+615,male,3,24,(19-40) Young,0,1,1
+616,male,3,48,(41-60) Middle-Aged ,0,1,1
+617,female,2,57,(41-60) Middle-Aged ,0,1,1
+618,female,2,54,(41-60) Middle-Aged ,1,0,1
+619,male,3,18,(0-18) Children,0,1,1
+620,female,3,5,(0-18) Children,1,0,1
+621,female,1,43,(41-60) Middle-Aged ,1,0,1
+622,female,3,13,(0-18) Children,1,0,1
+623,female,1,17,(0-18) Children,1,0,1
+624,male,1,29,(19-40) Young,0,1,1
+625,male,3,25,(19-40) Young,0,1,1
+626,male,3,25,(19-40) Young,0,1,1
+627,female,3,18,(0-18) Children,1,0,1
+628,male,3,8,(0-18) Children,0,1,1
+629,male,3,1,(0-18) Children,1,0,1
+630,male,1,46,(41-60) Middle-Aged ,0,1,1
+631,male,2,16,(0-18) Children,0,1,1
+632,male,3,25,(19-40) Young,0,1,1
+633,male,2,39,(19-40) Young,0,1,1
+634,female,1,49,(41-60) Middle-Aged ,1,0,1
+635,female,3,31,(19-40) Young,1,0,1
+636,male,3,30,(19-40) Young,0,1,1
+637,female,3,30,(19-40) Young,0,1,1
+638,male,2,34,(19-40) Young,0,1,1
+639,female,2,31,(19-40) Young,1,0,1
+640,male,1,11,(0-18) Children,1,0,1
+641,male,3,0.42,(0-18) Children,1,0,1
+642,male,3,27,(19-40) Young,1,0,1
+643,male,3,31,(19-40) Young,0,1,1
+644,male,1,39,(19-40) Young,0,1,1
+645,female,3,18,(0-18) Children,0,1,1
+646,male,2,39,(19-40) Young,0,1,1
+647,female,1,33,(19-40) Young,1,0,1
+648,male,3,26,(19-40) Young,0,1,1
+649,male,3,39,(19-40) Young,0,1,1
+650,male,2,35,(19-40) Young,0,1,1
+651,female,3,6,(0-18) Children,0,1,1
+652,male,3,30.5,(19-40) Young,0,1,1
+653,female,3,23,(19-40) Young,0,1,1
+654,male,2,31,(19-40) Young,0,1,1
+655,male,3,43,(41-60) Middle-Aged ,0,1,1
+656,male,3,10,(0-18) Children,0,1,1
+657,female,1,52,(41-60) Middle-Aged ,1,0,1
+658,male,3,27,(19-40) Young,1,0,1
+659,male,1,38,(19-40) Young,0,1,1
+660,female,3,27,(19-40) Young,1,0,1
+661,male,3,2,(0-18) Children,0,1,1
+662,male,2,1,(0-18) Children,1,0,1
+663,female,1,62,(61-above) Senior-Citizen,1,0,1
+664,female,3,15,(0-18) Children,1,0,1
+665,male,2,0.83,(0-18) Children,1,0,1
+666,male,3,23,(19-40) Young,0,1,1
+667,male,3,18,(0-18) Children,0,1,1
+668,female,1,39,(19-40) Young,1,0,1
+669,male,3,21,(19-40) Young,0,1,1
+670,male,3,32,(19-40) Young,1,0,1
+671,male,3,20,(19-40) Young,0,1,1
+672,male,2,16,(0-18) Children,0,1,1
+673,female,1,30,(19-40) Young,1,0,1
+674,male,3,34.5,(19-40) Young,0,1,1
+675,male,3,17,(0-18) Children,0,1,1
+676,male,3,42,(41-60) Middle-Aged ,0,1,1
+677,male,3,35,(19-40) Young,0,1,1
+678,male,2,28,(19-40) Young,0,1,1
+679,male,3,4,(0-18) Children,0,1,1
+680,male,3,74,(61-above) Senior-Citizen,0,1,1
+681,female,3,9,(0-18) Children,0,1,1
+682,female,1,16,(0-18) Children,1,0,1
+683,female,2,44,(41-60) Middle-Aged ,0,1,1
+684,female,3,18,(0-18) Children,1,0,1
+685,female,1,45,(41-60) Middle-Aged ,1,0,1
+686,male,1,51,(41-60) Middle-Aged ,1,0,1
+687,female,3,24,(19-40) Young,1,0,1
+688,male,3,41,(41-60) Middle-Aged ,0,1,1
+689,male,2,21,(19-40) Young,0,1,1
+690,female,1,48,(41-60) Middle-Aged ,1,0,1
+691,male,2,24,(19-40) Young,0,1,1
+692,female,2,42,(41-60) Middle-Aged ,1,0,1
+693,female,2,27,(19-40) Young,1,0,1
+694,male,1,31,(19-40) Young,0,1,1
+695,male,3,4,(0-18) Children,1,0,1
+696,male,3,26,(19-40) Young,0,1,1
+697,female,1,47,(41-60) Middle-Aged ,1,0,1
+698,male,1,33,(19-40) Young,0,1,1
+699,male,3,47,(41-60) Middle-Aged ,0,1,1
+700,female,2,28,(19-40) Young,1,0,1
+701,female,3,15,(0-18) Children,1,0,1
+702,male,3,20,(19-40) Young,0,1,1
+703,male,3,19,(19-40) Young,0,1,1
+704,female,1,56,(41-60) Middle-Aged ,1,0,1
+705,female,2,25,(19-40) Young,1,0,1
+706,male,3,33,(19-40) Young,0,1,1
+707,female,3,22,(19-40) Young,0,1,1
+708,male,2,28,(19-40) Young,0,1,1
+709,male,3,25,(19-40) Young,0,1,1
+710,female,3,39,(19-40) Young,0,1,1
+711,male,2,27,(19-40) Young,0,1,1
+712,female,1,19,(19-40) Young,1,0,1
+713,male,1,26,(19-40) Young,1,0,1
+714,male,3,32,(19-40) Young,0,1,1

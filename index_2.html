@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+  text.dimple-axis{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: helvetica;
+  }
+  text.dimple-storyboard-label{
+    opacity: 0;
+  }
+</style>
+<div id="chartContainer">
+  <meta charset="utf-8">
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+  <script type="text/javascript">
+
+      var svg = dimple.newSvg("#chartContainer", 1250, 580);
+
+      d3.csv("data_2.csv", function (data) {
+
+          // Create a notification chart at the right bottom of the chart to give some overview about the dataset
+          var notification = new dimple.chart(svg, data);
+          notification.setBounds(980, 250, 200, 200);
+
+          svg.selectAll("title_text")
+          .data(["40.62% of the Passengers"," Survived the tragedy,",
+              "",
+              " 32.06% of whom were Male and ",
+              "67.93% of whom were Female."])
+          .enter()
+          .append("text")
+          .attr("x", 980)
+          .attr("y", function (d, i) { return 300 + i * 22; })
+          .style("font-family", "arial")
+          .style("font-size", "18px")
+          .style("color", "Black")
+          .text(function (d) { return d; });
+
+
+          // Create the indicator chart on the right of the main chart
+          var indicator = new dimple.chart(svg, data);
+          
+          // Pick blue as the default and orange for the selected class
+          var defaultColor = indicator.defaultColors[0];
+          var indicatorColor = indicator.defaultColors[2];
+
+          // The frame duration for the animation in milliseconds
+          var frame = 4000;
+          var firstTick = true;
+
+          // Place the indicator bar chart to the right
+          indicator.setBounds(980, 80, 153, 150);
+
+          // Add Passenger Class along the y axis
+          var y = indicator.addCategoryAxis("y", "Pclass");
+          y.addOrderRule("Pclass", "desc");
+
+          // Use Survived for bar size and hide the axis
+          var x = indicator.addPctAxis("x", "Survived");
+          x.hidden = true;
+
+          // Add the bars to the indicator and add event handlers
+          var s = indicator.addSeries(null, dimple.plot.bar);
+
+          s.getTooltipText = function(e){
+            return ["Passenger Class: " + e.cy];
+
+          };
+
+          // On Click of the indicator bar
+          s.addEventHandler("click", function (e) {
+              // Pause the animation
+              story.pauseAnimation();
+              // If it is already selected resume the animation
+              // otherwise pause and move to the selected Pclass
+              if (e.yValue === story.getFrameValue()) {
+                  story.startAnimation();
+              } else {
+                  story.goToFrame(e.yValue);
+                  story.pauseAnimation();
+              }
+          });
+
+          // Draw the side chart
+          indicator.draw();
+
+          // Remove the title from the y axis
+          y.titleShape.remove();
+
+          // Remove the lines from the y axis
+          y.shapes.selectAll("line,path").remove();
+
+          // Move the y axis text inside the plot area
+          y.shapes.selectAll("text")
+                  .style("text-anchor", "start")
+                  .style("font-size", "14px")
+                  .style("font-weight", "bold")
+                  .attr("transform", "translate(18, 0.3)");
+
+          svg.selectAll("title_text")
+                  .data(["Click Passenger Class to select",
+                      "and pause. Click again",
+                      "to resume animation"])
+                  .enter()
+                  .append("text")
+                  .attr("x", 980)
+                  .attr("y", function (d, i) { return 50 + i * 13; })
+                  .style("font-family", "arial")
+                  .style("font-size", "12px")
+                  .style("color", "Black")
+                  .text(function (d) { return d; });
+
+          // Manually set the bar colors
+          s.shapes
+                  .attr("rx", 5)
+                  .attr("ry", 5)
+                  .style("fill", function (d) { return (d.y === 1 ? indicatorColor.fill : defaultColor.fill) })
+                  .style("stroke", function (d) { return (d.y === 1 ? indicatorColor.stroke : defaultColor.stroke) })
+                  .style("opacity", 0.5);
+
+          // Draw the main chart
+          var bar = new dimple.chart(svg, data);
+          bar.setBounds(100, 120, 850, 400)
+          var x = bar.addCategoryAxis("x", "Sex");
+          var y = bar.addMeasureAxis("y","Survived");
+          y.ticks = 20;
+          y.overrideMax = 85;
+          var b = bar.addSeries(['Age_bucket'], dimple.plot.bar);
+          bar.addLegend(100, 75, 650, 60);
+
+          b.getTooltipText = function(e){
+            if(e.cx == 'female'){
+              return ["Number of Survivors : " + e.yValue,
+                      "Gender : " + e.cx,
+                      "Group : " + e.aggField[0],
+                      "Survival Percentage : " + ((e.yValue/197)*100).toFixed(2) + "% of Total female Survived"];
+            }else{
+              return ["Number of Survivors : " + e.yValue,
+                      "Gender : " + e.cx,
+                      "Group : " + e.aggField[0],
+                      "Survival Percentage : " + ((e.yValue/93)*100).toFixed(2) + "% of Total Male Survived"];
+            }
+          }
+
+          // Adding a title to the plot
+          svg.append('text')
+          .attr("x", 550)
+          .attr("y", 30)
+          .style("text-anchor", "middle")
+          .style("font-family", "arial")
+          .style("font-weight", "bold")
+          .style("font-size", "20px")
+          .text("Survival Information of the Passengers of Titanic");
+
+          svg.selectAll("title_text")
+          .data(["Age groups of the Passengers in Titanic."])
+          .enter()
+          .append("text")
+          .attr("x", 100)
+          .attr("y", 65)
+          .style("font-family", "arial")
+          .style("font-size", "12px")
+          .style("color", "Black")
+          .text(function (d) { return d; });
+
+          var counter = 1;
+          // Add a storyboard to the main chart and set the tick event
+          var story = bar.setStoryboard("Pclass", function onTick(e) {
+            counter += 1;
+            if(counter == 5){
+              story.pauseAnimation();
+            }
+              if (!firstTick) {
+                  // Color all shapes the same
+                  s.shapes
+                          .transition()
+                          .duration(frame / 2)
+                          .style("fill", function (d) { return (d.y === e ? indicatorColor.fill : defaultColor.fill) })
+                          .style("stroke", function (d) { return (d.y === e ? indicatorColor.stroke : defaultColor.stroke) });
+              }
+              firstTick = false;
+          });
+  
+
+          // Change the frame duration
+          story.frameDuration = frame;
+
+          // Order the storyboard by Pclass
+          story.addOrderRule("Pclass");
+
+          bar.ease = 'bounce';
+          bar.draw(500);
+          
+
+          // Orphan the legends as they are consistent but by default they
+          // will refresh on tick
+          bar.legends = [];
+
+          });
+  </script>
+</div>
+</html>
